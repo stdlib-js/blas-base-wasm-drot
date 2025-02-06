@@ -38,19 +38,19 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/drot-wasm"
-%% click B href "https://github.com/stdlib-js/blas-base-drot-wasm/tree/main"
-%% click C href "https://github.com/stdlib-js/blas-base-drot-wasm/tree/production"
-%% click D href "https://github.com/stdlib-js/blas-base-drot-wasm/tree/esm"
-%% click E href "https://github.com/stdlib-js/blas-base-drot-wasm/tree/deno"
-%% click F href "https://github.com/stdlib-js/blas-base-drot-wasm/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/drot"
+%% click B href "https://github.com/stdlib-js/blas-base-wasm-drot/tree/main"
+%% click C href "https://github.com/stdlib-js/blas-base-wasm-drot/tree/production"
+%% click D href "https://github.com/stdlib-js/blas-base-wasm-drot/tree/esm"
+%% click E href "https://github.com/stdlib-js/blas-base-wasm-drot/tree/deno"
+%% click F href "https://github.com/stdlib-js/blas-base-wasm-drot/tree/umd"
 ```
 
-[stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/drot-wasm
-[production-url]: https://github.com/stdlib-js/blas-base-drot-wasm/tree/production
-[deno-url]: https://github.com/stdlib-js/blas-base-drot-wasm/tree/deno
-[deno-readme]: https://github.com/stdlib-js/blas-base-drot-wasm/blob/deno/README.md
-[umd-url]: https://github.com/stdlib-js/blas-base-drot-wasm/tree/umd
-[umd-readme]: https://github.com/stdlib-js/blas-base-drot-wasm/blob/umd/README.md
-[esm-url]: https://github.com/stdlib-js/blas-base-drot-wasm/tree/esm
-[esm-readme]: https://github.com/stdlib-js/blas-base-drot-wasm/blob/esm/README.md
+[stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/drot
+[production-url]: https://github.com/stdlib-js/blas-base-wasm-drot/tree/production
+[deno-url]: https://github.com/stdlib-js/blas-base-wasm-drot/tree/deno
+[deno-readme]: https://github.com/stdlib-js/blas-base-wasm-drot/blob/deno/README.md
+[umd-url]: https://github.com/stdlib-js/blas-base-wasm-drot/tree/umd
+[umd-readme]: https://github.com/stdlib-js/blas-base-wasm-drot/blob/umd/README.md
+[esm-url]: https://github.com/stdlib-js/blas-base-wasm-drot/tree/esm
+[esm-readme]: https://github.com/stdlib-js/blas-base-wasm-drot/blob/esm/README.md

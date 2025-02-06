@@ -40,7 +40,7 @@ limitations under the License.
 ## Installation
 
 ```bash
-npm install @stdlib/blas-base-drot-wasm
+npm install @stdlib/blas-base-wasm-drot
 ```
 
 Alternatively,
@@ -60,7 +60,7 @@ To view installation and usage instructions specific to each branch build, be su
 ## Usage
 
 ```javascript
-var drot = require( '@stdlib/blas-base-drot-wasm' );
+var drot = require( '@stdlib/blas-base-wasm-drot' );
 ```
 
 #### drot.main( N, x, strideX, y, strideY, c, s )
@@ -336,7 +336,7 @@ The function has the following additional parameters:
 
 ```javascript
 var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
-var drot = require( '@stdlib/blas-base-drot-wasm' );
+var drot = require( '@stdlib/blas-base-wasm-drot' );
 
 var opts = {
     'dtype': 'float64'
@@ -399,19 +399,19 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/blas-base-drot-wasm.svg
-[npm-url]: https://npmjs.org/package/@stdlib/blas-base-drot-wasm
+[npm-image]: http://img.shields.io/npm/v/@stdlib/blas-base-wasm-drot.svg
+[npm-url]: https://npmjs.org/package/@stdlib/blas-base-wasm-drot
 
-[test-image]: https://github.com/stdlib-js/blas-base-drot-wasm/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/blas-base-drot-wasm/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/blas-base-wasm-drot/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/blas-base-wasm-drot/actions/workflows/test.yml?query=branch:main
 
-[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-base-drot-wasm/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/blas-base-drot-wasm?branch=main
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-base-wasm-drot/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/blas-base-wasm-drot?branch=main
 
 <!--
 
-[dependencies-image]: https://img.shields.io/david/stdlib-js/blas-base-drot-wasm.svg
-[dependencies-url]: https://david-dm.org/stdlib-js/blas-base-drot-wasm/main
+[dependencies-image]: https://img.shields.io/david/stdlib-js/blas-base-wasm-drot.svg
+[dependencies-url]: https://david-dm.org/stdlib-js/blas-base-wasm-drot/main
 
 -->
 
@@ -425,15 +425,15 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [umd]: https://github.com/umdjs/umd
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
-[deno-url]: https://github.com/stdlib-js/blas-base-drot-wasm/tree/deno
-[deno-readme]: https://github.com/stdlib-js/blas-base-drot-wasm/blob/deno/README.md
-[umd-url]: https://github.com/stdlib-js/blas-base-drot-wasm/tree/umd
-[umd-readme]: https://github.com/stdlib-js/blas-base-drot-wasm/blob/umd/README.md
-[esm-url]: https://github.com/stdlib-js/blas-base-drot-wasm/tree/esm
-[esm-readme]: https://github.com/stdlib-js/blas-base-drot-wasm/blob/esm/README.md
-[branches-url]: https://github.com/stdlib-js/blas-base-drot-wasm/blob/main/branches.md
+[deno-url]: https://github.com/stdlib-js/blas-base-wasm-drot/tree/deno
+[deno-readme]: https://github.com/stdlib-js/blas-base-wasm-drot/blob/deno/README.md
+[umd-url]: https://github.com/stdlib-js/blas-base-wasm-drot/tree/umd
+[umd-readme]: https://github.com/stdlib-js/blas-base-wasm-drot/blob/umd/README.md
+[esm-url]: https://github.com/stdlib-js/blas-base-wasm-drot/tree/esm
+[esm-readme]: https://github.com/stdlib-js/blas-base-wasm-drot/blob/esm/README.md
+[branches-url]: https://github.com/stdlib-js/blas-base-wasm-drot/blob/main/branches.md
 
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-base-drot-wasm/main/LICENSE
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-base-wasm-drot/main/LICENSE
 
 [blas]: http://www.netlib.org/blas
 
