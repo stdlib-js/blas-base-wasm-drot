@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import drot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-drot@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-wasm-drot/tags). For example,
+
+```javascript
 import drot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-drot@v0.1.0-esm/index.mjs';
 ```
 
@@ -323,7 +328,7 @@ The function has the following additional parameters:
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import drot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-drot@v0.1.0-esm/index.mjs';
+import drot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-drot@esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
